@@ -8,6 +8,7 @@ import { useContext } from "react"
 import './News.css'
 
 
+
  import { store } from "../../App"
 import Pagination from "../Pagination.jsx"
 
