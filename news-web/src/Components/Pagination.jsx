@@ -38,8 +38,6 @@ const Pagination = (props) => {
                 </nav>
 
             </div>
-
-
         </div>
     )
 }
