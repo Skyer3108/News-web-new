@@ -1,12 +1,8 @@
 [build]
-command="npm run build"
-publish="/build"
-base="/"
+  command = "npm run build"
+  publish = "build"
 
-[[redirects]]
+[context.production.environment]
+  NODE_ENV = "production"
 
-from="/*"
-
-to="/index.html"
-status=200
 
